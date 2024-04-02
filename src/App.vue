@@ -11,7 +11,7 @@ html, body {
     margin: 0;
     padding: 0;
     background: black;
-    background-image: url("assets/background.gif");
+    background-image: url("../assets/background.gif");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;

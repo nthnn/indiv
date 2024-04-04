@@ -9,7 +9,7 @@ const router = useRouter();
 
 const contents: Array<Array<string>> = [
     [
-        "You, in the society",
+        "You, Society, and Solace",
         "What defines individuality, and how does it intersect with societal norms and expectations?",
         "assets/image-1.png",
         "Assert",

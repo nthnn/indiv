@@ -10,16 +10,20 @@ import { RouterView } from "vue-router";
 html, body {
     margin: 0;
     padding: 0;
+    width: 100% !important;
+    height: 100% !important;
     background: black;
     background-image: url("../assets/background.gif");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    height: 100% !important;
-    width: 100% !important;
-    display: flex;
+}
+
+.main-window {
+    height: 100vh;
     align-items: center;
     justify-content: center;
+    display: flex;
 }
 
 .background {

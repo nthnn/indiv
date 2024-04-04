@@ -7,13 +7,13 @@ const contents: Array<Array<string>> = [
     [
         "You, in the society",
         "What defines individuality, and how does it intersect with societal norms and expectations?",
-        "assets/image-1.jpeg",
+        "assets/image-1.png",
         "Assert"
     ],
     [
         "Optimistic Socio-culturism",
         "How do cultural and societal pressures shape our understanding of personal identity and sanity?",
-        "assets/image-2.jpg",
+        "assets/image-2.png",
         "Proceed"
     ]
 ];
@@ -25,8 +25,8 @@ function next() {
 </script>
 
 <template>
-    <div align="center" class="px-4">
-        <div class="col-lg-3 col-md-4 col-sm-10 mx-4">
+    <div class="main-window">
+        <div class="col-lg-3 col-md-4 col-sm-10 mx-4 px-4">
             <Question
                 :key="index"
                 :title="contents[index][0]"

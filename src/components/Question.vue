@@ -11,8 +11,8 @@ export default {
 </script>
 
 <template>
-    <div class="background w-100 d-inline-block" align="left">
-        <div class="window glass active" style="max-width: 100%">
+    <div class="background d-inline-block" align="left">
+        <div class="window glass active">
             <div class="title-bar">
                 <div class="title-bar-text">{{ title }}</div>
                 <div class="title-bar-controls">
@@ -22,11 +22,9 @@ export default {
             </div>
 
             <div class="window-body has-space">
-                <div align="center">
-                    <img
-                        :src="banner"
-                        class="w-100 glitch text twitch-effect medium" />
-                </div>
+                <img
+                    :src="banner"
+                    class="w-100 glitch text twitch-effect medium" />
 
                 <p>{{ message }}</p>
                 <hr/>

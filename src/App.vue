@@ -15,8 +15,9 @@ html, body {
     overflow-x: hidden;
     background: black;
     background-image: url("../assets/background.gif");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom;
     background-attachment: fixed;
 }
 
@@ -25,7 +26,7 @@ html, body {
 }
 
 .main-window {
-    height: 100vh;
+    height: 95vh;
     align-items: center;
     justify-content: center;
     display: flex;

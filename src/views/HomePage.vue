@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-    <div class="main-window">
+    <div class="main-window glitch text twitch-effect medium">
         <div class="col-lg-3 col-md-4 col-sm-10 mx-4 px-4">
         <div class="background">
             <div class="window glass active">

@@ -4,7 +4,8 @@ import { RouterLink } from 'vue-router';
 
 <template>
     <div class="main-window">
-        <div class="background col-3">
+        <div class="col-lg-3 col-md-4 col-sm-10 mx-4 px-4">
+        <div class="background">
             <div class="window glass active">
                 <div class="title-bar">
                     <div class="title-bar-text">Indivus</div>
@@ -30,5 +31,6 @@ import { RouterLink } from 'vue-router';
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </template>

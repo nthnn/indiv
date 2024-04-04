@@ -1,11 +1,13 @@
 <script lang="ts">
 export default {
     props: {
-        title:      { type: String },
-        message:    { type: String },
-        button:     { type: String },
-        banner:     { type: String },
-        onNext:     { type: Function }
+        title:              { type: String },
+        message:            { type: String },
+        previousButton:     { type: String },
+        nextButton:         { type: String },
+        banner:             { type: String },
+        onNext:             { type: Function },
+        onPrevious:         { type: Function }
     }
 };
 </script>
@@ -28,8 +30,14 @@ export default {
 
                 <p>{{ message }}</p>
                 <hr/>
-                <div align="right">
-                    <button :onclick="onNext">{{ button }}</button>
+                <div class="row">
+                    <div class="col-6">
+                        <button :onclick="onPrevious">{{ previousButton }}</button>
+                    </div>
+
+                    <div class="col-6" align="right">
+                        <button :onclick="onNext">{{ nextButton }}</button>
+                    </div>
                 </div>
             </div>
         </div>

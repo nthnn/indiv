@@ -1,9 +1,12 @@
 <script setup lang="ts">
 import { RouterLink } from "vue-router";
+import TopMargin from "@/components/TopMargin.vue";
 </script>
 
 <template>
-  <div class="main-window glitch text twitch-effect medium">
+  <TopMargin />
+
+  <div class="glitch text twitch-effect medium" align="center">
     <div class="col-lg-3 col-md-4 col-sm-10 mx-4 px-4">
       <div class="background">
         <div class="window glass active">

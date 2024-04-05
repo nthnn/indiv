@@ -35,11 +35,4 @@ body {
 .background {
   transform: scale(1.2);
 }
-
-.main-window {
-  height: 85vh;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
 </style>

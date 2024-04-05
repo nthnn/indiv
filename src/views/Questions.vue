@@ -3,7 +3,7 @@ import { ref } from "vue";
 import { useRouter } from "vue-router";
 
 import Question from "@/components/Question.vue";
-import TopMargin from "@/components/TopMargin.vue";
+import Margin from "@/components/Margin.vue";
 
 const index = ref(0);
 const router = useRouter();
@@ -48,7 +48,7 @@ function next() {
 </script>
 
 <template>
-  <TopMargin />
+  <Margin />
 
   <div align="center">
     <div class="col-lg-4 col-md-6 col-sm-10 mx-4 px-4">
@@ -65,4 +65,6 @@ function next() {
       />
     </div>
   </div>
+
+  <Margin />
 </template>

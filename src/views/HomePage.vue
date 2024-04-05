@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { RouterLink } from "vue-router";
-import TopMargin from "@/components/TopMargin.vue";
+import Margin from "@/components/Margin.vue";
 </script>
 
 <template>
-  <TopMargin />
+  <Margin />
 
   <div class="glitch text twitch-effect medium" align="center">
     <div class="col-lg-3 col-md-4 col-sm-10 mx-4 px-4">
@@ -53,4 +53,6 @@ import TopMargin from "@/components/TopMargin.vue";
       </div>
     </div>
   </div>
+
+  <Margin />
 </template>

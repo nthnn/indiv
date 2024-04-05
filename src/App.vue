@@ -35,4 +35,14 @@ body {
 .background {
   transform: scale(1.2);
 }
+
+.window-body img {
+  width: 60%;
+}
+
+@media only screen and (max-width: 771px) {
+  .window-body img {
+    width: 100%;
+  }
+}
 </style>

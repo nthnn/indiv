@@ -15,7 +15,7 @@ const contents: Array<Array<string>> = [
     "assets/image-1.png",
     "Assert",
     "Go back",
-    "Individuality is a complex interplay of intrinsic essence and external influences, forever dancing on the threshold between autonomy and conformity. At its core, individuality is the unique amalgamation of traits, beliefs, experiences, and aspirations that distinguish one person from another.<br/><br/>Society, with its intricate web of cultural, religious, and ideological frameworks, exerts a profound influence on the formation and expression of individuality. It delineates the boundaries within which individuality can flourish or wither, often imposing norms and expectations that mold individuals into predefined roles and identities."
+    "Individuality is a complex interplay of intrinsic essence and external influences, forever dancing on the threshold between autonomy and conformity. At its core, individuality is the unique amalgamation of traits, beliefs, experiences, and aspirations that distinguish one person from another.<br/><br/>Society, with its intricate web of cultural, religious, and ideological frameworks, exerts a profound influence on the formation and expression of individuality. It delineates the boundaries within which individuality can flourish or wither, often imposing norms and expectations that mold individuals into predefined roles and identities.<br/><br/>However, true individuality transcends the constraints of societal conventions, daring to defy the status quo and challenge the boundaries of collective consciousness. It is a delicate balance, a constant negotiation between the pull of conformity and the yearning for authentic self-expression.",
   ],
   [
     "Optimistic Socio-culturism",
@@ -23,6 +23,7 @@ const contents: Array<Array<string>> = [
     "assets/image-2.png",
     "Proceed",
     "Return",
+    "Cultural and societal pressures exert a profound influence on the intricate tapestry of personal identity and sanity. From the moment of birth, individuals are enveloped in a web of norms, values, and expectations constructed by the society they inhabit. These constructs mold their perceptions of self and others, shaping the very essence of their identity.<br/><br/>Consequently, individuals find themselves navigating a labyrinth of societal expectations, striving to conform while grappling with the innate desire for authenticity. While, cultural narratives weave themselves into the fabric of our psyche, dictating not only how we perceive ourselves but also how we interpret the world around us.<br/><br/>Thus, personal identity becomes a negotiation between the self and society, a delicate balancing act between conformity and self-expression.",
   ],
   [
     "Soundness of Prudence",
@@ -30,7 +31,32 @@ const contents: Array<Array<string>> = [
     "assets/image-3.gif",
     "Ok",
     "Previous",
+    "Experiences of marginalization or oppression carve deep into the psyche, not merely as external assaults on one's social standing, but as existential wounds that reverberate within the individual's sense of self. The weight of discrimination, whether it be based on race, gender, sexuality, or any other defining characteristic, can erode the very foundation of one's identity.<br/><br/>In a world that often fails to recognize or validate the full humanity of marginalized individuals, the constant barrage of microaggressions and systemic injustices can lead to a profound sense of alienation and dissonance. This dissonance fractures the individual's understanding of themselves and their place in the world, sowing seeds of doubt and insecurity that gnaw away at their sense of sanity.",
   ],
+  [
+    "Cognitive Neuropsychology",
+    "Can cognitive dissonance serve as a protective mechanism for individuals with sociopathic tendencies, shielding them from the emotional repercussions of their actions?",
+    "assets/image-4.png",
+    "Accept",
+    "Back",
+    "Cognitive dissonance, the discomfort experienced when holding conflicting beliefs or attitudes, is a complex psychological phenomenon that often compels individuals to reconcile their inconsistencies to maintain a sense of internal coherence. In the context of individuals with sociopathic tendencies, cognitive dissonance can indeed serve as a protective mechanism, albeit in a morally ambiguous manner.<br/><br/>Sociopathy, characterized by a lack of empathy, guilt, and remorse, often enables individuals to engage in behavior that would typically evoke profound emotional repercussions in others. However, the presence of cognitive dissonance may facilitate a form of psychological insulation, allowing sociopaths to rationalize their actions and mitigate any potential cognitive dissonance by altering their beliefs or attitudes to align with their behavior.<br/><br/>Nonetheless, cognitive dissonance in individuals with sociopathic tendencies operates not as a genuine moral compass but rather as a pragmatic tool for self-preservation, enabling them to navigate the complexities of their psychological landscape while remaining impervious to the ethical implications of their actions.",
+  ],
+  [
+    "Soulessness",
+    "How does the absence of a perceived soul influence the experience of cognitive dissonance, if at all?",
+    "assets/image-5.png",
+    "Assert",
+    "Return",
+    "The notion of a &quot;soul&quot; in the context of human experience is deeply rooted in philosophical, religious, and cultural perspectives. While some may perceive the soul as an essential aspect of identity and consciousness, others view it as a metaphorical or nonexistent entity. In either case, cognitive dissonance, the psychological discomfort that arises from holding conflicting beliefs or attitudes, transcends metaphysical concepts.<br/><br/>The absence of a perceived soul does not inherently dictate one's experience of cognitive dissonance, as this phenomenon operates within the realm of psychological processes rather than metaphysical assumptions. However, the absence of a belief in a soul could potentially impact how individuals reconcile conflicting beliefs about their existence, purpose, and morality.<br/><br/>Without a belief in an immortal soul, individuals may confront cognitive dissonance with a more existential perspective, grappling with questions of identity, meaning, and moral responsibility solely within the framework of their earthly existence. In this sense, the absence of a perceived soul may not directly influence cognitive dissonance itself, but it could shape the existential context within which such conflicts are understood and resolved."
+  ],
+  [
+    "Cosmogical Coincidence?",
+    "To what extent does our biological existence, including genetic predispositions and physiological processes, influence our self-consciousness?",
+    "assets/image-6.png",
+    "Accept",
+    "Previous",
+    "Our self-consciousness, that profound awareness of our own existence, is intricately intertwined with our biological existence. These genetic blueprints set the stage for a myriad of physiological processes, from the firing of neurons in our brains to the release of hormones that regulate our emotions and behaviors. Thus, our biology forms the canvas upon which our self-consciousness is painted.<br/><br/>And so, our upbringing, culture, environment, and personal choices all contribute to the masterpiece of our self-consciousness, adding layers of complexity and nuance. Therefore, while our biological existence undeniably influences our self-consciousness, it is ultimately the synthesis of nature and nurture that gives rise to the rich tapestry of human consciousness."
+  ]
 ];
 
 function previous() {

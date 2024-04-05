@@ -26,9 +26,9 @@ export default {
 
       <div class="window-body has-space">
         <center>
-          <img :src="banner" class="w-50 glitch text twitch-effect medium" />
+          <img :src="banner" class="glitch text twitch-effect medium" />
         </center>
-        <br/>
+        <hr />
 
         <b>{{ message }}</b>
         <p v-html="answer"></p>

@@ -20,7 +20,10 @@ import Margin from "@/components/Margin.vue";
 
           <div class="window-body has-space">
             <center>
-              <img src="/pentagram.png" />
+              <br />
+              <img src="/pentagram.png" style="width: 32px !important" />
+              <br /><br />
+              <hr />
             </center>
 
             <p>

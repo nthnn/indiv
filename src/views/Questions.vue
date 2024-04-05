@@ -15,6 +15,7 @@ const contents: Array<Array<string>> = [
     "assets/image-1.png",
     "Assert",
     "Go back",
+    "Individuality is a complex interplay of intrinsic essence and external influences, forever dancing on the threshold between autonomy and conformity. At its core, individuality is the unique amalgamation of traits, beliefs, experiences, and aspirations that distinguish one person from another.<br/><br/>Society, with its intricate web of cultural, religious, and ideological frameworks, exerts a profound influence on the formation and expression of individuality. It delineates the boundaries within which individuality can flourish or wither, often imposing norms and expectations that mold individuals into predefined roles and identities."
   ],
   [
     "Optimistic Socio-culturism",
@@ -50,7 +51,7 @@ function next() {
   <TopMargin />
 
   <div align="center">
-    <div class="col-lg-3 col-md-4 col-sm-10 mx-4 px-4">
+    <div class="col-lg-4 col-md-6 col-sm-10 mx-4 px-4">
       <Question
         :key="index"
         :title="contents[index][0]"
@@ -58,6 +59,7 @@ function next() {
         :banner="contents[index][2]"
         :nextButton="contents[index][3]"
         :previousButton="contents[index][4]"
+        :answer="contents[index][5]"
         :onPrevious="previous"
         :onNext="next"
       />

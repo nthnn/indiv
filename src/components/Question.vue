@@ -6,6 +6,7 @@ export default {
     previousButton: { type: String },
     nextButton: { type: String },
     banner: { type: String },
+    answer: { type: String },
     onNext: { type: Function },
     onPrevious: { type: Function },
   },
@@ -24,9 +25,13 @@ export default {
       </div>
 
       <div class="window-body has-space">
-        <img :src="banner" class="w-100 glitch text twitch-effect medium" />
+        <center>
+          <img :src="banner" class="w-50 glitch text twitch-effect medium" />
+        </center>
+        <br/>
 
-        <p>{{ message }}</p>
+        <b>{{ message }}</b>
+        <p v-html="answer"></p>
         <hr />
         <div class="row">
           <div class="col-6">

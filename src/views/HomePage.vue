@@ -12,10 +12,6 @@ import Margin from "@/components/Margin.vue";
         <div class="window glass active">
           <div class="title-bar">
             <div class="title-bar-text">Indivus</div>
-            <div class="title-bar-controls">
-              <button aria-label="Minimize"></button>
-              <button aria-label="Close"></button>
-            </div>
           </div>
 
           <div class="window-body has-space">

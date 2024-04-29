@@ -64,6 +64,14 @@ const contents: Array<Array<string>> = [
     "Yes",
     "Back",
     "The plasticity of the prefrontal cortex serves as a profound testament to the remarkable adaptability inherent within the human brain. In the crucible of adversity and trauma, this cerebral region emerges as a pivotal arena where resilience is forged. The prefrontal cortex, with its capacity for neuroplasticity, enables individuals to navigate the labyrinthine complexities of emotional upheaval and existential turmoil.<br/><br/>It is within this intricate neural network that the alchemy of adaptation unfolds, reshaping cognitive frameworks and recalibrating emotional responses in the wake of adversity. Through the intricate interplay of synaptic connections and neural reorganization, individuals harness the transformative potential of their prefrontal cortex to confront adversity with an unwavering resilience."
+  ],
+  [
+    "Neuropsychologically Dilema-Deprivation",
+    "How do disturbances in perception and cognition characteristic of schizophrenia influence the experience and interpretation of optical illusions?",
+    "assets/image-8.gif",
+    "Finish",
+    "Revert",
+    "Disturbances in perception and cognition, hallmark features of schizophrenia, fundamentally alter the individual's relationship with reality.<br/><br/>In the realm of optical illusions, where perception dances with ambiguity, the schizophrenic mind traverses a labyrinth of distorted signals and fragmented interpretations. Here, the lines between illusion and reality blur into a kaleidoscope of uncertainty. Perception, typically a reliable guide through the maze of sensory stimuli, becomes an unreliable narrator, weaving tales of deception and misdirection. Within this cognitive landscape, the schizophrenic psyche may confront optical illusions not merely as playful anomalies but as ominous reflections of its own fractured state. Each illusion becomes a mirror, reflecting the disarray within, echoing the dissonance between perception and truth.<br/><br/>Yet, amidst the chaos, there exists a poignant truth: the interpretation of optical illusions by the schizophrenic mind transcends mere visual phenomena; it becomes a poignant metaphor for the perpetual struggle to discern reality from illusion, a struggle emblematic of the human condition itself."
   ]
 ];
 

@@ -19,8 +19,7 @@ export default {
       <div class="title-bar">
         <div class="title-bar-text">{{ title }}</div>
         <div class="title-bar-controls">
-          <button aria-label="Minimize"></button>
-          <button aria-label="Close"></button>
+          <RouterLink to="/"><button aria-label="Close"></button></RouterLink>
         </div>
       </div>
 

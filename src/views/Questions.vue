@@ -59,7 +59,7 @@ const contents: Array<Array<string>> = [
   ],
   [
     "Thoughts and Prayers and Thoughts",
-    "To what extent does the plasticity of the prefrontal cortex allow for adaptation and resilience in the face of adversity and trauma?",
+    "In what vastness does the plasticity of the prefrontal cortex allow for adaptation and resilience in the face of adversity and trauma?",
     "assets/image-7.jpg",
     "Yes",
     "Back",
